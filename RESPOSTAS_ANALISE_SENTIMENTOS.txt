@@ -1,0 +1,47 @@
+ANÁLISE DE SENTIMENTOS - PROJETO OPENAI/EVALS
+
+Projeto analisado: openai/evals
+Período: 18/09/2023 - 03/11/2025 (776 dias)
+Total de PRs analisadas: 100
+Modelos comparados: bert-multilingual, bertweet, tabularisai
+
+
+QUESTÃO 1: MODELO MAIS EFETIVO
+
+Dentre os modelos selecionados pela equipe, o BERT-BASE-MULTILINGUAL-UNCASED-SENTIMENT foi o mais efetivo na análise de sentimentos. Esta conclusão é fundamentada em quatro critérios principais de avaliação.
+
+Em relação à cobertura de análise, o bert-multilingual conseguiu analisar 100% dos títulos e 92% dos bodies das pull requests, assim como o tabularisai. Por outro lado, o bertweet apresentou um problema crítico ao analisar apenas 46% dos bodies, falhando em 54 PRs. Esta baixa cobertura torna o bertweet não confiável para análise completa de repositórios.
+
+Quanto à capacidade de diferenciação, medida pelo desvio padrão dos sentimentos classificados, o tabularisai apresentou 1.36 e o bert-multilingual 1.41, ambos considerados excelentes. O bertweet ficou em 0.78, considerado moderado. Um maior desvio padrão indica que o modelo consegue distinguir melhor entre sentimentos diferentes, evitando classificações genéricas.
+
+Na sensibilidade a contexto técnico, analisamos 20 PRs contendo palavras-chave como fix, bug, error e remove. O bertweet foi mais sensível ao contexto negativo com média 2.40, o bert-multilingual apresentou 3.05 considerado neutro apropriado, e o tabularisai ficou em 3.20, levemente alto. PRs de correção técnica idealmente devem ter sentimento neutro ou negativo na escala de 1 a 5, pois lidam com problemas.
+
+Sobre a confiança das predições, o bertweet apresentou 90% de confiança nos títulos, porém essa alta confiança é suspeita dado seu baixo desempenho na análise de bodies. O tabularisai teve 40% e o bert-multilingual 37% de confiança, ambos considerados moderados mas consistentes com sua performance geral.
+
+A correlação entre os três modelos foi de 0.225, considerada baixa. Esta discordância significativa é esperada pois os modelos utilizam escalas diferentes: bert usa 5 estrelas, bertweet usa 3 categorias e tabularisai usa 5 categorias granulares. A baixa correlação não indica problema, mas sim que cada modelo enxerga sentimentos de forma diferente.
+
+Assim, o ranking final coloca o bert-multilingual em primeiro lugar pelo melhor equilíbrio entre cobertura e precisão, o tabularisai em segundo como boa alternativa com melhor granularidade, e o bertweet em terceiro não sendo recomendado devido à cobertura insuficiente.
+
+
+QUESTÃO 2: IMPACTO NA EVOLUÇÃO DO PROJETO
+
+Baseado na análise de sentimentos das pull requests ao longo do tempo, constatamos que o projeto openai/evals é um projeto maduro em fase de manutenção ativa com cultura colaborativa forte.
+
+As tendências temporais revelam informações importantes sobre a evolução do projeto. O sentimento dos títulos passou de 4.00 para 2.80, representando uma queda de 30%. Este declínio indica a transição de um tom entusiasmado com features novas para um tom mais técnico focado em manutenção. Já o sentimento do body evoluiu de 1.60 para 2.30, representando uma melhora de 43.7%, o que indica redução significativa de problemas críticos e um código mais estável. Os comentários mantiveram-se positivos, evoluindo de 3.65 para 3.93, um aumento de 7.8%, demonstrando que a cultura colaborativa permaneceu estável e construtiva ao longo do tempo.
+
+A natureza do trabalho também revela a maturidade do projeto. A distribuição das PRs mostra que 32% são features com sentimento 4.12, 36% são manutenção geral com sentimento 3.22, 12% são bugfixes com sentimento 3.42, 12% são documentação com sentimento 3.58, 5% são melhorias com sentimento 3.00, e 3% são remoções com sentimento 1.00. Isso significa que 68% do trabalho é dedicado à manutenção, padrão típico de projetos maduros que já implementaram suas funcionalidades principais.
+
+O engajamento da comunidade é outro indicador forte da saúde do projeto. Das 100 PRs analisadas, 67 receberam comentários, totalizando 118 comentários com sentimento médio de 4.25. Um insight crítico emerge ao comparar o sentimento do body, que ficou em 2.20 refletindo problemas técnicos, com o sentimento dos comentários em 4.25, resultando numa diferença de 2.05 pontos. Esta diferença mostra que as discussões são muito mais positivas que os problemas descritos, indicando uma cultura colaborativa forte com feedback construtivo e não destrutivo.
+
+A evolução por período reforça estas conclusões. No primeiro quartil o sentimento dos títulos era 3.72, do body 1.67, com 1.1 comentários por PR. No segundo quartil os títulos subiram para 3.76, o body melhorou para 2.32 e os comentários ficaram em 1.0 por PR. No terceiro quartil os títulos caíram para 3.20, o body para 2.12, mas os comentários aumentaram para 1.8 por PR. No quarto e mais recente quartil, os títulos ficaram em 3.32, o body melhorou significativamente para 2.62, mas os comentários caíram para 0.8 por PR. Comparando o primeiro e último quartil, observamos uma queda de 0.40 nos títulos indicando transição para manutenção, uma melhora de 0.95 no body representando 56.9% de redução em problemas críticos, e uma diminuição de 0.3 comentários por PR possivelmente indicando PRs mais simples.
+
+Os impactos positivos constatados na evolução incluem a redução de 56.9% em problemas críticos evidenciada pela melhora do body de 1.67 para 2.62, a cultura colaborativa forte com comentários 2.05 pontos acima dos problemas técnicos, a estabilidade no desenvolvimento sem mudanças abruptas tornando-o previsível, e o alto engajamento com 67% das PRs tendo discussões ativas. Como pontos de atenção, identificamos a transição para fase de manutenção que é natural mas deve ser monitorada para garantir crescimento contínuo, e uma leve redução no engajamento com comentários caindo de 1.1 para 0.8 por PR.
+
+Concluímos que o projeto openai/evals está em excelente estado de saúde para um repositório de mais de 2 anos. Alcançou maturidade mantendo qualidade técnica com redução de 56.9% em problemas e cultura colaborativa positiva com discussões 2.05 pontos mais construtivas que os problemas técnicos descritos. A transição de crescimento rápido para manutenção estável é natural e indica que o projeto implementou suas funcionalidades core, focando agora em estabilidade e melhorias incrementais.
+
+
+RESUMO EXECUTIVO
+
+O modelo mais efetivo foi o bert-base-multilingual-uncased-sentiment, apresentando cobertura de 92-100% contra apenas 46% do bertweet na análise de bodies, diferenciação excelente com desvio padrão de 1.41, e equilíbrio ideal entre precisão e cobertura. A evolução do projeto demonstra maturidade alcançada com sucesso, evidenciada pela redução de 56.9% em problemas críticos, cultura colaborativa 2.05 pontos acima dos problemas técnicos, engajamento de 67% das PRs com discussões ativas, e status de manutenção ativa e saudável.
+
+Data: 13/11/2025
