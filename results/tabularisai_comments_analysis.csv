@@ -1,0 +1,119 @@
+pr_number,comment_type,author,sentiment_numeric,sentiment_label,sentiment_score,created_at
+1528,issue,justinlinw,3,Neutral,0.3585295081138611,
+1528,review_body,usama-openai,3,Neutral,0.6605740785598755,
+1528,review_body,usama-openai,3,Positive,0.4168153703212738,
+1517,review_body,JunShern,3,Positive,0.514410674571991,
+1516,review_body,JunShern,3,Positive,0.43396055698394775,
+1514,review_body,etr2460,3,Neutral,0.22777648270130157,
+1512,review_body,JunShern,3,Negative,0.23541828989982605,
+1506,review_body,JunShern,3,Very Positive,0.6006516814231873,
+1503,review_body,JunShern,3,Very Positive,0.35955068469047546,
+1502,review_body,JunShern,3,Positive,0.4802137315273285,
+1501,review_body,JunShern,3,Positive,0.4385407865047455,
+1500,review_body,JunShern,3,Very Positive,0.5128003358840942,
+1499,review_body,JunShern,3,Neutral,0.46737825870513916,
+1498,review_body,JunShern,3,Very Positive,0.418484091758728,
+1497,review_body,JunShern,3,Very Negative,0.42188751697540283,
+1496,review_body,JunShern,3,Very Positive,0.4510057270526886,
+1492,review_body,JunShern,3,Very Negative,0.5992012619972229,
+1491,issue,JunShern,3,Very Negative,0.42963263392448425,2024-03-19 03:45:37+00:00
+1491,review_body,JunShern,3,Positive,0.560059666633606,
+1490,review,JunShern,3,Very Negative,0.5074976086616516,2024-03-19 03:55:38+00:00
+1490,review_body,JunShern,3,Positive,0.38784995675086975,
+1489,review,JunShern,3,Very Negative,0.5074976086616516,2024-03-19 03:51:30+00:00
+1489,review,JunShern,3,Very Negative,0.4118529260158539,2024-03-19 03:54:19+00:00
+1489,review,thesofakillers,3,Neutral,0.2680532932281494,2024-03-19 09:39:18+00:00
+1489,review,JunShern,3,Positive,0.292389452457428,2024-03-19 14:06:57+00:00
+1489,review_body,JunShern,3,Neutral,0.6742035150527954,
+1488,review,JunShern,3,Very Negative,0.4211573004722595,2024-03-19 03:22:18+00:00
+1488,review,JunShern,3,Neutral,0.25455763936042786,2024-03-19 03:24:07+00:00
+1488,review,JunShern,3,Neutral,0.3033923804759979,2024-03-19 03:24:36+00:00
+1488,review,JunShern,3,Very Negative,0.36308661103248596,2024-03-19 03:25:33+00:00
+1488,review,JunShern,3,Neutral,0.3191964328289032,2024-03-19 03:26:30+00:00
+1488,review,thesofakillers,3,Negative,0.3492524027824402,2024-03-19 09:45:08+00:00
+1488,review,thesofakillers,3,Very Negative,0.6576456427574158,2024-03-19 09:47:43+00:00
+1488,review,thesofakillers,3,Neutral,0.34579765796661377,2024-03-19 09:51:15+00:00
+1488,review,JunShern,3,Positive,0.3518199622631073,2024-03-19 14:19:00+00:00
+1488,review,JunShern,3,Very Positive,0.4330718219280243,2024-03-19 14:19:37+00:00
+1488,review_body,JunShern,3,Very Positive,0.4121432900428772,
+1487,review_body,JunShern,3,Very Positive,0.48207470774650574,
+1486,review_body,JunShern,3,Very Positive,0.4267894923686981,
+1485,review_body,JunShern,3,Very Positive,0.38265055418014526,
+1483,review_body,JunShern,3,Very Positive,0.2776983678340912,
+1482,review_body,etr2460,3,Positive,0.39582693576812744,
+1481,review_body,JunShern,3,Neutral,0.4212132394313812,
+1468,issue,johny-b,3,Neutral,0.39331603050231934,2024-02-20 00:06:20+00:00
+1468,review_body,etr2460,3,Positive,0.5313555598258972,
+1464,issue,logankilpatrick,3,Positive,0.41608870029449463,2024-02-13 14:28:17+00:00
+1461,review_body,etr2460,3,Very Negative,0.3092675805091858,
+1460,review_body,JunShern,3,Very Positive,0.27329668402671814,
+1453,review_body,JunShern,3,Positive,0.3049686849117279,
+1452,review_body,JunShern,3,Neutral,0.4118380844593048,
+1451,review_body,etr2460,3,Positive,0.3900105357170105,
+1449,issue,JunShern,3,Neutral,0.6048482060432434,2024-03-13 07:52:06+00:00
+1445,review_body,etr2460,3,Neutral,0.37774577736854553,
+1444,review_body,katyhshi,3,Very Positive,0.6964505314826965,
+1442,review_body,logankilpatrick,3,Very Positive,0.41404229402542114,
+1439,review_body,etr2460,3,Neutral,0.40210771560668945,
+1438,review,etr2460,3,Very Negative,0.44671207666397095,2023-12-20 23:03:16+00:00
+1438,review,inwaves,3,Neutral,0.4766896367073059,2023-12-21 09:48:56+00:00
+1438,review,etr2460,3,Neutral,0.37628650665283203,2023-12-21 17:40:31+00:00
+1435,review_body,etr2460,3,Very Positive,0.5630183219909668,
+1429,review,logankilpatrick,3,Very Negative,0.3819179832935333,2023-12-10 17:59:52+00:00
+1429,review,logankilpatrick,3,Neutral,0.5655913949012756,2023-12-10 18:02:16+00:00
+1429,review,logankilpatrick,3,Very Negative,0.44960644841194153,2023-12-10 18:02:46+00:00
+1429,review,logankilpatrick,3,Neutral,0.41643935441970825,2023-12-10 18:03:30+00:00
+1429,review_body,etr2460,3,Positive,0.6932291984558105,
+1427,issue,etr2460,3,Very Negative,0.603659451007843,2023-12-11 17:07:33+00:00
+1422,issue,return-nil,3,Very Positive,0.4287642240524292,2023-12-08 19:49:18+00:00
+1422,review_body,usama-openai,3,Negative,0.377804696559906,
+1422,review_body,usama-openai,3,Positive,0.4449125826358795,
+1420,issue,mmtmn,3,Positive,0.5595815777778625,2023-12-02 07:57:50+00:00
+1420,review,etr2460,3,Negative,0.5749679207801819,2023-12-05 00:28:22+00:00
+1420,review,jwang47,3,Neutral,0.4836447834968567,2023-12-05 01:38:08+00:00
+1420,review,jwang47,3,Neutral,0.48284104466438293,2023-12-05 01:39:42+00:00
+1420,review,etr2460,3,Neutral,0.3557322919368744,2023-12-05 01:53:11+00:00
+1420,review,etr2460,3,Neutral,0.2996829152107239,2023-12-05 01:55:54+00:00
+1420,review,etr2460,3,Neutral,0.4573420286178589,2023-12-05 02:12:13+00:00
+1415,review,krychu,3,Neutral,0.5845755934715271,2023-11-16 15:14:00+00:00
+1401,issue,JunShern,3,Positive,0.33574530482292175,2023-11-10 12:23:09+00:00
+1400,issue,svanhvitlilja,3,Positive,0.4860537350177765,2023-12-06 15:18:40+00:00
+1400,issue,etr2460,3,Very Positive,0.5631407499313354,2023-12-11 23:40:37+00:00
+1400,issue,etr2460,3,Positive,0.37130364775657654,2024-01-10 16:22:57+00:00
+1400,review_body,usama-openai,3,Neutral,0.47297969460487366,
+1400,review_body,usama-openai,3,Positive,0.4168153703212738,
+1397,review_body,andrew-openai,3,Positive,0.4546310305595398,
+1395,issue,MoonBlvd,3,Positive,0.5184537172317505,2023-12-12 01:38:03+00:00
+1391,review_body,JunShern,3,Neutral,0.4145369231700897,
+1390,review_body,JunShern,3,Neutral,0.4145369231700897,
+1389,review_body,logankilpatrick,3,Positive,0.4458075761795044,
+1388,review,danesherbs,3,Neutral,0.4644957184791565,2023-10-24 03:45:12+00:00
+1388,review_body,logankilpatrick,3,Positive,0.4948224425315857,
+1387,issue,andrew-openai,3,Neutral,0.4053061306476593,2023-10-27 17:29:22+00:00
+1387,review,andrew-openai,3,Neutral,0.4763627052307129,2023-10-27 17:25:32+00:00
+1387,review,vthorsteinsson,3,Positive,0.3367801010608673,2023-10-27 17:33:59+00:00
+1381,review_body,mmtmn,3,Positive,0.33407512307167053,
+1381,review_body,etr2460,3,Very Positive,0.3443240225315094,
+1378,review_body,logankilpatrick,3,Positive,0.49073657393455505,
+1368,review_body,usama-openai,3,Positive,0.45784321427345276,
+1366,issue,mmtmn,3,Neutral,0.5437840223312378,2023-10-11 04:47:49+00:00
+1366,review_body,andrew-openai,3,Negative,0.456088125705719,
+1366,review_body,usama-openai,3,Positive,0.45784321427345276,
+1366,review_body,andrew-openai,3,Very Positive,0.48281458020210266,
+1365,issue,logankilpatrick,3,Positive,0.4006316065788269,2023-09-25 21:28:33+00:00
+1356,issue,andrew-openai,3,Neutral,0.3173648416996002,2023-09-19 00:31:04+00:00
+1356,review,andrew-openai,3,Negative,0.32542720437049866,2023-09-19 00:30:20+00:00
+1355,review,andrew-openai,3,Neutral,0.4090380072593689,2023-09-19 00:31:40+00:00
+1355,review_body,andrew-openai,3,Neutral,0.38870835304260254,
+1354,review_body,andrew-openai,3,Neutral,0.43502870202064514,
+1352,review,sjadler2004,3,Positive,0.3213318884372711,2023-09-19 01:26:27+00:00
+1352,review_body,andrew-openai,3,Neutral,0.4324984848499298,
+1351,review_body,andrew-openai,3,Neutral,0.30587539076805115,
+1351,review_body,andrew-openai,3,Positive,0.41409406065940857,
+1349,issue,adrianmargin,3,Neutral,0.4036952555179596,2023-10-07 19:48:36+00:00
+1349,review_body,usama-openai,3,Neutral,0.4696652293205261,
+1349,review_body,usama-openai,3,Positive,0.4168153703212738,
+1347,review_body,jwang47,3,Positive,0.5294108986854553,
+1345,review_body,usama-openai,3,Positive,0.45784321427345276,
+1343,issue,rohoswagger,3,Very Positive,0.3000201880931854,2023-09-08 23:03:36+00:00
+1343,review_body,usama-openai,3,Positive,0.45784321427345276,
