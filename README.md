@@ -16,7 +16,12 @@ O repositório escolhido para essa atividade foi o [Evals](https://github.com/op
 ### Instruções
 
 1. Clone este repositório.
-2. Instale as dependências necessárias (pip install requests).
+2. Instale as dependências necessárias com `pip install`.
 3. Execute o script `extract_prs.py` para extrair os Pull Requests do repositório Evals.
-4. Abra o notebook `tabularisai_multilingual_sentiment_analysis.ipynb` e siga as instruções para realizar a análise de sentimentos.
-5. Os resultados da análise serão salvos em `models/tabularisai_multilingual_sentiment/prs_with_sentiments.json`.
+4. Esse script criará o arquivo `openai_evals_prs.json` com o conteúdo de todos os 100 últimos pull requests do repositório
+5. Dentro da pasta models, existe um arquivo com um notebook para cada modelo específico
+6. Execute as células do notebook para gerar a análise de sentimentos com cada modelo
+7. Verifique que cada notebook tenha acesso ao arquivo `openai_evals_prs.json` para gerar a análise de sentimentos
+8. Os resultados da análise serão salvos na mesma pasta do notebook com o nome `prs_with_sentiments.json`
+9. Por último, execute o notebook `models_comparison.ipynb`
+10. Esse notebook gerará os arquivos de comparação entre a análise de sentimentos geradas pelos modelos
